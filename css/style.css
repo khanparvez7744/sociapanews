@@ -1,0 +1,2348 @@
+* {
+    box-sizing: border-box;
+}
+
+html,body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-size: 18px;
+    font-family: Poppins-Regular;
+    background: #f9f9f9;
+}
+
+/*start fix Header*/
+.fixHeader {
+    position: fixed !important;
+    width: 100% !important;
+    left: 0;
+    top: 0;
+    z-index: 100000 !important;
+    transition: 1s;
+}
+
+/*end fix Header*/
+.fsize-16 {
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: Poppins-Regular;
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: Poppins-Light;
+    src: url(../fonts/Poppins-Light.ttf);
+}
+
+.termsSec {
+    padding: 40px 0 20px 0;
+}
+
+.termsSec h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.termsSec h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.termsSec ol {
+    margin-left: -10px;
+    font-size: 18px;
+}
+
+.termsSec p {
+    font-size: 18px;
+}
+
+.moveTop {
+    height: 40px;
+    width: 40px;
+    background: #931216;
+    border-radius: 5px;
+    border: 1px solid #931216;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+}
+
+.moveTop i {
+    color: white;
+}
+
+#moveTop {
+    visibility: hidden;
+}
+
+.privacySec {
+    padding: 40px 0 20px 0;
+}
+
+.privacySec h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.privacySec h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.privacySec ol {
+    margin-left: -10px;
+    font-size: 18px;
+}
+
+.privacySec p {
+    font-size: 18px;
+}
+
+.footeraboutLi {
+    margin-left: -40px;
+}
+
+.lastBorder {
+    height: 7px;
+    border-top: 3px dotted #d9d9d9;
+    border-bottom: 3px dotted #d9d9d9;
+}
+
+.prdlauHgt .card-body {
+    padding: 10px 10px 0px 10px !important;
+}
+
+.finanHed {
+    margin-top: 64px !important;
+}
+
+.strtHeight .card-body {
+    padding: 10px 10px 5px 10px !important;
+}
+
+.cursor-default {
+    cursor: default !important;
+}
+
+.cardCate, .cardCate:hover {
+    color: #cd2b30;
+    background-color: #f7e1e569;
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: auto;
+}
+
+.cardCateSm, .cardCateSm:hover {
+    color: #cd2b30;
+    background-color: #f7e1e569;
+    font-size: 8px;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: auto
+}
+
+.cardCateDiv {
+    margin: 10px 0
+}
+
+.cardCateSmDiv {
+    margin: 0px 0
+}
+
+/*start video*/
+.owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next, .owl-carousel.videoSlider button.owl-dot {
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px !important;
+    height: 50px;
+    width: 50px;
+    margin: -50px;
+    box-shadow: 1px 4px 11px -1px grey
+}
+
+.owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next, .owl-carousel.videoSlider button.owl-dot {
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px !important;
+    height: 50px;
+    width: 50px;
+    margin: -50px;
+    box-shadow: 1px 4px 11px -1px grey;
+}
+
+.videoSlider .owl-prev, .videoSlider .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.videoSlider .owl-prev {
+    left: -2rem;
+}
+
+.owl-carousel.videoSlider .owl-stage-outer {
+    background: transparent !important;
+}
+
+.owl-carousel.videoSlider {
+    z-index: 1;
+}
+
+.owl-carousel.videoSlider .owl-nav.disabled, .owl-carousel.videoSlider .owl-dots.disabled {
+    display: block;
+}
+
+/*end video*/
+/*start more video*/
+.owl-carousel.moreVideo .owl-nav button.owl-prev, .owl-carousel.moreVideo .owl-nav button.owl-next, .owl-carousel.moreVideo button.owl-dot {
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px !important;
+    height: 50px;
+    width: 50px;
+    margin: -50px;
+    box-shadow: 1px 4px 11px -1px grey;
+}
+
+.owl-carousel.moreVideo .owl-nav button.owl-prev, .owl-carousel.moreVideo .owl-nav button.owl-next, .owl-carousel.moreVideo button.owl-dot {
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px !important;
+    height: 50px;
+    width: 50px;
+    margin: -50px;
+    box-shadow: 1px 4px 11px -1px grey;
+}
+
+.moreVideo .owl-prev, .moreVideo .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.moreVideo .owl-prev {
+    left: -2rem;
+}
+
+.owl-carousel.moreVideo .owl-stage-outer {
+    background: transparent !important;
+}
+
+.owl-carousel.moreVideo {
+    z-index: 1;
+}
+
+.owl-carousel.moreVideo .owl-nav.disabled, .owl-carousel.moreVideo .owl-dots.disabled {
+    display: block;
+}
+
+/*end more video*/
+.sticky {
+    position: fixed;
+    top: 50px;
+    width: 200px;
+    z-index: 0;
+}
+
+.stickyR {
+    position: fixed;
+    top: 50px;
+    width: 200px;
+    z-index: 0;
+}
+
+.stickySearch {
+    position: fixed;
+    top: 50px;
+    width: 200px;
+    z-index: 0;
+}
+
+.topBanner .carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 1.25rem;
+    left: 15%;
+    z-index: 1000;
+    top: 340px;
+    padding-top: 7%;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.topBanner .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: initial;
+}
+
+footer {
+    z-index: 1;
+    position: relative;
+}
+
+.socialSpace {
+    margin-bottom: -5px;
+    margin-left: 9px;
+}
+
+.topLateTrend img {
+    height: 90px;
+}
+
+.topLateTrend > .card {
+    height: 500px;
+}
+
+.topBanner > .card {
+    height: 500px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.quickLinkFoot {
+    margin-left: -30px
+}
+
+.fnclHgt .card h6 {
+    font-size: 10px;
+    line-height: normal
+}
+
+.connectWithUs .fa-facebook, .connectWithUs .fa-instagram, .connectWithUs .fa-twitter, .connectWithUs .fa-linkedin, .connectWithUs .fa-youtube, .connectWithUs .fa-whatsapp {
+    padding: 10px
+}
+
+.mrktHgt .card img {
+    height: auto
+}
+
+ul.marqLNews li a:hover {
+    color: rgb(218, 73, 6) !important
+}
+
+.connectWithUs .fa-facebook:hover {
+    background: white;
+    color: #1877f2 !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.connectWithUs .fa-instagram:hover {
+    background: white;
+    color: rgb(233 73 101) !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.connectWithUs .fa-twitter:hover {
+    background: white;
+    color: rgb(77 166 233) !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.connectWithUs .fa-linkedin:hover {
+    background: white;
+    color: rgb(0 115 177) !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.connectWithUs .fa-youtube:hover {
+    background: white;
+    color: #ff0000 !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.connectWithUs .fa-whatsapp:hover {
+    background: white;
+    color: #43c654 !important;
+    padding: 10px;
+    border-radius: 10px
+}
+
+.goog-te-gadget-simple {
+    font-size: 16px !important;
+    padding: 10px 20px !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important
+}
+
+.menubarTop a.nav-link:hover {
+    background: white;
+    color: #cd2b30 !important
+}
+
+.indFullBnr {
+    height: 70vh;
+}
+
+.stickyHeader {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+.owl-carousel .owl-stage-outer {
+    background: transparent !important;
+}
+
+.owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+    background: transparent;
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 50%;
+    padding: 5px !important;
+    height: 50px;
+    width: 50px;
+    margin: -50px;
+    box-shadow: 1px 4px 11px -1px gray;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.overflow-auto {
+    overflow: scroll;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #cd2b30 !important;
+    font-size: 14px;
+}
+
+.nav-tabs .nav-link {
+    font-size: 14px;
+}
+
+.hoverRed:hover {
+    color: #cd2b30;
+}
+
+/*start social icons*/
+.socialIcon {
+    list-style-type: none;
+    position: fixed;
+    right: 0;
+    padding: 5px;
+    margin: 0;
+    display: block;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #f8f8fa;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border: 1px solid #dee2e6;
+    border-right-color: #f8f8fa;
+    /* z-index: 2; */
+}
+
+.socialIcon a {
+    margin: 0;
+    padding: 8px;
+    border-bottom: 1px solid #dee2e6;
+    display: block
+}
+
+.socialIcon a:last-child {
+    border-bottom: 0px solid #dee2e6;
+}
+
+/*end social icons*/
+.menubarTop ul li a {
+    font-size: 16px;
+}
+
+.wh-37 {
+    width: 37px !important;
+    height: 37px !important;
+}
+
+.removeunderline {
+    text-decoration: none;
+    color: black;
+}
+
+.fnclHgt .card img {
+    height: auto !important
+}
+
+.prdlauHgt .card img {
+    height: auto !important
+}
+
+.indHeight .card img {
+    height: auto
+}
+
+.strtHeight .card img {
+    height: auto !important
+}
+
+.insdHgt .card img {
+    height: auto !important
+}
+
+.expHgt img {
+    height: auto !important
+}
+
+.mrktCard .card {
+    height: 380px;
+    overflow: auto
+}
+
+.mrktCard .card img {
+    height: auto
+}
+
+.firstCard .card-img-top {
+    height: 160px
+}
+
+.firstCard .card {
+    height: 340px;
+    overflow: hidden
+}
+
+.goog-te-gadget img {
+    display: none
+}
+
+.Poppins-Bold2 {
+    font-family: Poppins-Bold
+}
+
+.Poppins-Bold {
+    font-family: Poppins-Medium
+}
+
+.Poppins-Light {
+    font-family: Poppins-Light
+}
+
+.fs-16 {
+    font-size: 14px;
+}
+
+.logoHeader button {
+    margin-left: -40px;
+    height: 40px;
+}
+
+.searchInput {
+    height: 40px;
+    width: 600px;
+    font-size: 14px;
+}
+
+.menubarTop ul li {
+    padding: 0 5px;
+}
+
+.menubarTop ul li a+ul li {
+    padding: 0 0px !important;
+}
+
+.menubarTop ul li a+ul li a, .menubarTop ul li a+ul li a:hover, .menubarTop ul li a+ul li a:active, .menubarTop ul li a+ul li a:focus {
+    font-size: 14px;
+}
+
+.menubarTop .dropdown-menu {
+    padding: 0rem 0;
+}
+
+.menubarTop .dropdown-item:focus, .menubarTop .dropdown-item:hover {
+    color: white !important;
+    background-color: #cd2b30;
+}
+
+.menubarTop ul li a,.menubarTop ul li a:hover,.menubarTop ul li a:visited,.menubarTop ul li a:active,.menubarTop ul li a:focus {
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 4px !important;
+}
+
+.bg-darkred, .bg-darkred:hover {
+    background: #982e31;
+    color: white;
+}
+
+.bg-red, .bg-red:hover {
+    background: #cd2b30;
+    color: white !important;
+}
+
+.bg-light-red {
+    background: #facdcf;
+    color: white;
+}
+
+.text-red, .text-red:hover {
+    color: #cd2b30;
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+ul.marqLNews li {
+    display: inline-block;
+    padding: 0px 30px;
+    margin-top: 9px;
+}
+
+header .row:nth-child(3) {
+    height: 46px;
+}
+
+.bordBtm {
+    height: 5px;
+    width: 100px;
+    background: #cd2b30;
+}
+
+.w-110 {
+    width: 110px;
+}
+
+.h-3 {
+    height: 3px
+}
+
+.rounded-30 {
+    border-radius: 30px
+}
+
+ul.rightCardUl {
+    list-style-image: url("../images/right-arrow.png")
+}
+
+.wndrCarohgt .card {
+    height: 370px !important;
+    overflow-y: auto
+}
+
+.wndrCarohgt .card img {
+    height: auto
+}
+
+.wonderRow .owl-prev, .wonderRow .owl-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%)
+}
+
+.wonderRow .owl-prev {
+    left: -2rem
+}
+
+.wonderRow .owl-next {
+    right: -2rem
+}
+
+.wonderRow .owl-carousel {
+    /* background-color:white !important; */
+    z-index: 1
+}
+
+/* end wonder woman owl carousel */
+.text-justify {
+    text-align: justify
+}
+
+.ls-1 {
+    letter-spacing: 1px
+}
+
+.bg-brown {
+    background-color: #423c3c
+}
+
+footer form button,footer form button:hover {
+    background: #8f1417 !important;
+    margin-left: -70px;
+    color: white !important
+}
+
+header .bg-light-red marquee ul.marqLNews li {
+    list-style-image: url("../images/right-arrow.png");
+}
+
+.companyFinUpd {
+    height: 490px;
+    overflow: auto
+}
+
+.page-item.active .page-link {
+    z-index: 3;
+    color: #fff !important;
+    background-color: #cd2b30;
+    border-color: transparent
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #e9ecef !important
+}
+
+.indFullBnr .txtBanner .card {
+    background: #21252985
+}
+
+/* start 3d card */
+.cardThreeD .wrapper {
+    margin: 0 auto 100px auto
+}
+
+.cardThreeD .stage {
+    list-style: none;
+    padding: 0
+}
+
+.cardThreeD .scene {
+    width: 280px;
+    height: 400px;
+    margin: 10px;
+    float: left;
+    perspective: 1000px
+}
+
+.cardThreeD .movie {
+    width: 260px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transform: translateZ(-130px);
+    transition: transform 350ms;
+}
+
+.cardThreeD .movie:hover {
+    transform: rotateY(-78deg) translateZ(20px);
+}
+
+.cardThreeD .movie .poster, .cardThreeD .movie .info {
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    background-color: #fff;
+    backface-visibility: hidden;
+}
+
+.cardThreeD .movie .poster {
+    transform: translateZ(130px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cardThreeD .movie .info {
+    transform: rotateY(90deg) translateZ(130px);
+    border: 1px solid transparent;
+    font-size: 14px;
+}
+
+.cardThreeD .movie::after {
+    content: '';
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 30px 50px rgba(0,0,0,0.3);
+    transform-origin: 100% 100%;
+    transform: rotateX(90deg) translateY(130px);
+    transition: box-shadow 350ms;
+}
+
+.cardThreeD .movie:hover::after {
+    box-shadow: 20px -5px 50px rgba(0,0,0,0.3);
+}
+
+.cardThreeD .info header {
+    color: #FFF;
+    padding: 7px 10px;
+    height: 195px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow: 0px 1px 1px rgba(0,0,0,1);
+}
+
+.cardThreeD .info header h1 {
+    margin: 0 0 2px;
+    font-size: 14px;
+}
+
+.cardThreeD .info header .rating {
+    border: 1px solid transparent;
+    padding: 0px 3px;
+}
+
+.cardThreeD .info p {
+    padding: 0px 20px;
+}
+
+.cardThreeD .movie .poster, .cardThreeD .movie .info, .cardThreeD .movie .info header {
+    transition: box-shadow 350ms;
+}
+
+.cardThreeD .movie .poster {
+    box-shadow: inset 0px 0px 40px rgba(255,255,255,0);
+}
+
+.cardThreeD .movie:hover .poster {
+    box-shadow: inset 300px 0px 40px rgba(255,255,255,0.8);
+}
+
+.cardThreeD .movie .info, .cardThreeD .movie .info header {
+    box-shadow: inset -300px 0px 40px rgba(0,0,0,0.5);
+}
+
+.cardThreeD .movie:hover .info, .cardThreeD .movie:hover .info header {
+    box-shadow: inset 0px 0px 40px rgba(0,0,0,0);
+}
+
+.bnrText {
+    letter-spacing: 0px;
+    line-height: 65px;
+    font-size: 50px;
+}
+
+/* start login modal */
+.loginModal .btn-close {
+    top: -9px !important;
+    box-sizing: content-box;
+    width: 1em;
+    height: 1em;
+    padding: 12px 12px !important;
+    color: #000;
+    border: 0;
+    border-radius: 50%;
+    opacity: 1;
+    position: absolute;
+    right: -8px;
+    box-shadow: 1px 1px 7px grey;
+    background-color: white;
+}
+
+/* end login modal */
+.bg-outline-red {
+    background-color: white;
+    border: 1px solid #cd2b30;
+    color: #cd2b30
+}
+
+.bg-outline-red:hover {
+    background-color: #cd2b30;
+    border: 1px solid #cd2b30;
+    color: white
+}
+
+.indHeight .card {
+    height: 450px;
+    overflow-y: auto
+}
+
+.strtHeight .card {
+    overflow-y: auto;
+    height: 180px
+}
+
+.expHgt .card {
+    height: 150px;
+    overflow-y: auto
+}
+
+.insdHgt .card {
+    height: 150px;
+    overflow-y: auto
+}
+
+.mrktHgt .card {
+    overflow-y: auto;
+    height: 390px;
+}
+
+.prdlauHgt .card {
+    overflow-y: auto;
+    height: 170px
+}
+
+.fnclHgt .card {
+    overflow-y: auto;
+    height: 100px
+}
+
+.prdlauHgt p {
+    font-size: 12px
+}
+
+.fnclHgt small {
+    font-size: 7px
+}
+
+.fnclHgt .card-footer {
+    margin-top: -15px
+}
+
+.strtHeight p {
+    font-size: 12px
+}
+
+.strtHeight small {
+    font-size: 10px
+}
+
+.expHgt p {
+    font-size: 12px
+}
+
+.expHgt small {
+    font-size: 10px
+}
+
+.insdHgt p {
+    font-size: 12px
+}
+
+.insdHgt small {
+    font-size: 10px
+}
+
+@media (max-width: 250px) {
+    header .row:nth-child(3) {
+        height: 37px !important
+    }
+
+    header .bg-light-red button {
+        font-size: 8px !important
+    }
+
+    .indFullBnr {
+        height: 80vh !important
+    }
+
+    .menubarTop ul li a, .menubarTop ul li a:hover, .menubarTop ul li a:visited, .menubarTop ul li a:active, .menubarTop ul li a:focus {
+        font-size: 10px !important;
+    }
+
+    .menubarTop ul li {
+        padding: 0 0px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    header button.navbar-toggler {
+        margin-left: 70px !important;
+    }
+
+    .moveTop {
+        height: 30px;
+        width: 30px;
+        border-radius: 3px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 320px) {
+    .indHeight .card img {
+        height: auto;
+    }
+
+    header form {
+        display: none !important;
+    }
+
+    header img {
+        width: 80px !important;
+    }
+
+    .searchInput {
+        font-size: 8px !important;
+        width: 70px !important;
+    }
+
+    .finanHed {
+        margin-top: 10px !important;
+    }
+
+    header .row:nth-child(3) {
+        height: 40px;
+    }
+
+    .cardThreeD .scene {
+        margin: 10px 6% !important;
+    }
+
+    header button.navbar-toggler {
+        margin-left: 40px !important;
+        font-size: 12px !important;
+    }
+
+    header form {
+        width: auto !important;
+    }
+
+    header form .dropdown button {
+        height: 30px;
+        width: 85px;
+        font-size: 10px;
+    }
+
+    header form input {
+        width: 90px !important;
+        height: 30px !important;
+        font-size: 10px !important;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 360px) {
+    .moveTop {
+        height: 30px;
+        width: 30px;
+        border-radius: 3px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .firstCard .card-img-top {
+        height: 140px;
+    }
+
+    .indHeight .card img {
+        height: 140px;
+    }
+
+    .finanHed {
+        margin-top: 10px !important;
+    }
+
+    header .row:nth-child(3) {
+        height: 40px;
+    }
+
+    .cardThreeD .scene {
+        margin: 20px 11% !important;
+    }
+
+    header form {
+        margin-left: -10px;
+        margin-top: -15px;
+    }
+
+    header button.navbar-toggler {
+        margin-top: -40px;
+        margin-left: 60px;
+    }
+
+    .searchInput {
+        width: 80px !important;
+        margin-left: 20px;
+    }
+
+    .translate {
+        height: 36px !important;
+    }
+}
+
+@media (max-width: 360px) {
+    .termsSec {
+        padding:10px 0 5px 0;
+    }
+
+    .termsSec h1 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .termsSec h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .termsSec ol {
+        margin-left: -25px;
+        font-size: 12px;
+    }
+
+    .termsSec p {
+        font-size: 12px;
+    }
+
+    .privacySec {
+        padding: 10px 0 5px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .privacySec h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec ol {
+        margin-left: -25px;
+        font-size: 12px;
+    }
+
+    .privacySec p {
+        font-size: 12px;
+    }
+
+    .newsColLoop9 img {
+        height: 170px;
+    }
+
+    .newsColLoop9 ol {
+        margin-left: 20px;
+    }
+
+    .indHeight small {
+        font-size: 8px;
+    }
+
+    .topLateTrend img {
+        height: 50px;
+    }
+
+    .mrktCard .card img {
+        height: 110px;
+    }
+
+    #ct {
+        margin-top: -150px;
+    }
+
+    .strtHeight .card {
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .footeraboutLi {
+        margin-left: -35px;
+    }
+
+    .cardCate, .cardCate:hover {
+        font-size: 10px;
+    }
+
+    .indHeight .card {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .topBanner > .card {
+        height: 260px !important;
+    }
+
+    .topBanner .carousel-caption {
+        top: 290px !important;
+    }
+
+    .adFont {
+        font-size: 6px;
+    }
+
+    .menubarTop .dropdown-menu {
+        border-bottom-left-radius: 25px !important;
+        border-bottom-right-radius: 25px !important;
+    }
+
+    .menubarTop ul li a+ul li a, .menubarTop ul li a+ul li a:hover, .menubarTop ul li a+ul li a:active, .menubarTop ul li a+ul li a:focus {
+        font-size: 18px;
+    }
+
+    .mrktHgt .fs-14 {
+        font-size: 10px;
+    }
+
+    .w-110 {
+        width: 30px;
+    }
+
+    footer small {
+        font-size: 8px;
+        margin-right: 20%;
+    }
+
+    footer .fs-14 {
+        font-size: 12px;
+    }
+
+    .strtHeight p {
+        font-size: 12px;
+    }
+
+    .strtHeight small {
+        font-size: 10px;
+    }
+
+    .stickyR {
+        width: 80px;
+        margin-left: -1px;
+    }
+
+    .stickySearch {
+        width: 70px;
+    }
+
+    .firstCard .card {
+        height: auto;
+    }
+
+    .owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next, .owl-carousel.videoSlider button.owl-dot {
+        padding: 5px !important;
+        height: 30px;
+        width: 30px;
+        margin: 23px;
+        background: #f1f1f1;
+        border: grey;
+        margin-top: -50px
+    }
+
+    .bgMenuFull {
+        height: 100vh;
+    }
+
+    .logoHeader button {
+        margin-left: -20px;
+        height: 24px !important;
+        margin-top: 18px;
+    }
+
+    .searchInput {
+        height: 24px !important;
+        font-size: 10px !important;
+        margin-top: 18px;
+    }
+
+    .goog-te-gadget-simple {
+        font-size: 10px !important;
+        padding: 5px 0px !important;
+        padding-top: 2px !important;
+        padding-bottom: 2px !important;
+    }
+
+    .wndrCarohgt .card {
+        height: 330px;
+    }
+
+    .mrktHgt .card {
+        height: auto;
+    }
+
+    .prdlauHgt .card {
+        height: auto;
+    }
+
+    .fnclHgt .card {
+        height: auto;
+    }
+
+    .menubarTop ul li {
+        padding: 15px 0px;
+    }
+
+    .menubarTop ul li a, .menubarTop ul li a:hover, .menubarTop ul li a:visited, .menubarTop ul li a:active, .menubarTop ul li a:focus {
+        font-size: 20px;
+    }
+
+    .cardThreeD .scene {
+        width: 280px;
+        height: 430px;
+        margin: 0 17%;
+    }
+
+    .indFullBnr {
+        height: 30vh;
+    }
+
+    header .bg-light-red button {
+        font-size: 10px;
+        margin-top: 2px;
+    }
+
+    header .nav-link {
+        padding: 0.3rem 1rem;
+        font-size: 10px;
+    }
+
+    header .nav-link+ul {
+        padding: 0rem 0 !important;
+    }
+
+    header .nav-link+ul li .dropdown-item {
+        padding: 10px 1rem !important;
+    }
+
+    .cardThreeD .movie .info {
+        font-size: 12px;
+    }
+
+    header .nav-link+ul li a {
+        font-size: 10px;
+    }
+
+    header i.fa-search {
+        font-size: 10px;
+        margin: -5px;
+        position: absolute;
+    }
+
+    header button.navbar-toggler {
+        margin-top: -43px;
+        margin-left: 60px;
+    }
+
+    header .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    header img {
+        width: 100px;
+        margin-left: -20px;
+    }
+
+    header form input {
+        width: 100px !important;
+        height: 30px !important;
+        font-size: 12px !important;
+    }
+
+    header form input+button {
+        height: 30px !important;
+        width: 30px !important;
+        color: white !important;
+    }
+
+    .translate {
+        height: 35px;
+        width: 95px;
+        font-size: 12px;
+    }
+
+    footer form button, footer form button:hover {
+        margin-left: -80px;
+    }
+
+    footer i.fab {
+        font-size: 18px;
+        margin-right: 10px;
+    }
+
+    footer ul {
+        margin-left: -15px;
+    }
+}
+
+@media (min-width: 361px) and (max-width:575px) {
+    .moveTop {
+        height: 30px;
+        width: 30px;
+        border-radius: 3px;
+        bottom: 10px;
+        right: 10px;
+    }
+
+    .termsSec {
+        padding: 15px 0 5px 0;
+    }
+
+    .termsSec h1 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .termsSec h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .termsSec ol {
+        margin-left: -15px;
+        font-size: 12px;
+    }
+
+    .termsSec p {
+        font-size: 12px;
+    }
+
+    .privacySec {
+        padding: 15px 0 5px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+
+    .privacySec h2 {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec ol {
+        margin-left: -15px;
+        font-size: 12px;
+    }
+
+    .privacySec p {
+        font-size: 12px;
+    }
+
+    .newsColLoop9 img {
+        height: 170px;
+    }
+
+    .newsColLoop9 ol {
+        margin-left: 20px;
+    }
+
+    .topLateTrend img {
+        height: 50px
+    }
+
+    .mrktCard .card img {
+        height: 110px
+    }
+
+    .firstCard .card-img-top {
+        height: auto
+    }
+
+    .indHeight small {
+        font-size: 8px
+    }
+
+    .strtHeight .card img {
+        height: 210px
+    }
+
+    #ct {
+        margin-top: -130px
+    }
+
+    .indHeight .card img {
+        height: auto
+    }
+
+    .strtHeight .card {
+        height: auto
+    }
+}
+
+@media (min-width: 576px) and (max-width:767px) {
+    .termsSec {
+        padding:15px 0 5px 0
+    }
+
+    .termsSec h1 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .termsSec h2 {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .termsSec ol {
+        margin-left: -15px;
+        font-size: 13px;
+    }
+
+    .termsSec p {
+        font-size: 13px;
+    }
+
+    .privacySec {
+        padding: 15px 0 5px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .privacySec h2 {
+        font-size: 14px;
+        margin-bottom: 2px;
+    }
+
+    .privacySec ol {
+        margin-left: -15px;
+        font-size: 13px;
+    }
+
+    .privacySec p {
+        font-size: 13px;
+    }
+
+    #ct {
+        margin-top: -110px !important;
+    }
+
+    .topBanner > .card {
+        height: 330px !important;
+    }
+
+    .prdlauHgt .card {
+        height: 400px;
+    }
+
+    .strtHeight .card {
+        height: 390px;
+    }
+
+    .mrktHgt .card {
+        height: 280px;
+    }
+
+    .stickySearch {
+        width: 60px
+    }
+
+    .mrktHgt .card img {
+        height: 100px
+    }
+
+    .fnclHgt .card img {
+        height: 100px !important
+    }
+
+    .firstCard .card {
+        height: auto;
+        overflow-y: auto;
+    }
+
+    .firstCard .card-img-top {
+        height: 250px
+    }
+
+    .indFullBnr {
+        height: 30vh
+    }
+
+    header .navbar-brand img {
+        width: 140px
+    }
+
+    .searchInput {
+        width: 100px
+    }
+
+    footer form button, footer form button:hover {
+        margin-left: -30px;
+    }
+
+    .stickyR {
+        width: 100px;
+        margin-left: 4px;
+    }
+
+    .cardThreeD .scene {
+        width: 280px;
+        height: 430px;
+        margin: 0 22%;
+    }
+}
+
+@media (max-width: 767px) {
+    .mrktCard .card {
+        height: auto;
+    }
+
+    .topBanner > .card {
+        height: 280px;
+    }
+
+    .topLateTrend > .card {
+        height: auto;
+    }
+
+    .connectWithUs .fa-facebook, .connectWithUs .fa-instagram, .connectWithUs .fa-twitter, .connectWithUs .fa-linkedin, .connectWithUs .fa-youtube, .connectWithUs .fa-whatsapp {
+        padding: 5px;
+    }
+
+    .connectWithUs .fa-facebook:hover, .connectWithUs .fa-instagram:hover, .connectWithUs .fa-twitter:hover, .connectWithUs .fa-linkedin:hover, .connectWithUs .fa-youtube:hover, .connectWithUs .fa-whatsapp:hover {
+        padding: 5px;
+    }
+
+    .loginModal form button {
+        font-size: 12px;
+    }
+
+    .contSec form button {
+        font-size: 12px;
+    }
+
+    .bnrText {
+        letter-spacing: 0px;
+        line-height: normal;
+        font-size: 12px;
+    }
+
+    header form {
+        width: auto;
+    }
+
+    body {
+        font-size: 14px
+    }
+
+    .fs-16 {
+        font-size: 12px;
+    }
+
+    h1 {
+        font-size: 17px
+    }
+
+    h2 {
+        font-size: 16px
+    }
+
+    h3 {
+        font-size: 15px
+    }
+
+    h4 {
+        font-size: 14px
+    }
+
+    h5 {
+        font-size: 13px
+    }
+
+    #ct {
+        font-size: 12px /* margin-top:-160px; */
+    }
+
+    h6 {
+        font-size: 12px
+    }
+}
+
+@media (min-width: 576px) and (max-width:991px) {
+    header button .fa-bars, header button .fa-bars:hover {
+        color:white
+    }
+
+    header .navbar-toggler:focus {
+        box-shadow: none
+    }
+}
+
+@media (min-width: 768px) and (max-width:991px) {
+    .topBanner .carousel-caption {
+        padding-top: 0%
+    }
+
+    .termsSec {
+        padding: 18px 0 6px 0
+    }
+
+    .termsSec h1 {
+        font-size: 20px;
+        margin-bottom: 10px
+    }
+
+    .termsSec h2 {
+        font-size: 15px;
+        margin-bottom: 3px
+    }
+
+    .termsSec ol {
+        margin-left: -15px;
+        font-size: 13px
+    }
+
+    .termsSec p {
+        font-size: 13px
+    }
+
+    .strtHeight h6 {
+        font-size: 12px
+    }
+
+    .strtHeight p {
+        font-size: 10px
+    }
+
+    .privacySec {
+        padding: 18px 0 6px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .privacySec h2 {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    .privacySec ol {
+        margin-left: -15px;
+        font-size: 13px;
+    }
+
+    .privacySec p {
+        font-size: 13px
+    }
+
+    .topLateTrend img {
+        height: 110px
+    }
+
+    .prdlauHgt .card {
+        height: 180px
+    }
+
+    .strtHeight .card {
+        height: 98px
+    }
+
+    .mrktCard .card {
+        height: 380px
+    }
+
+    .topBanner > .card {
+        height: 460px;
+        overflow-y: scroll
+    }
+
+    .stickyR {
+        width: 140px;
+        margin-left: 8px
+    }
+
+    .stickySearch {
+        width: 90px
+    }
+
+    .mrktHgt .card {
+        height: 380px
+    }
+
+    .finanHed {
+        font-size: 14px;
+        margin-top: 74px !important;
+    }
+
+    .adFont {
+        font-size: 10px;
+    }
+
+    .firstCard .card {
+        height: 340px;
+    }
+
+    .firstCard .card-img-top {
+        height: 180px;
+    }
+
+    .searchInput {
+        width: 150px;
+    }
+
+    header .navbar-brand img {
+        width: 240px;
+    }
+
+    .bnrText {
+        letter-spacing: 1px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+    .indFullBnr {
+        height: 40vh;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+        height: 40px;
+        width: 40px;
+        margin: -5px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1199px) {
+    .termsSec {
+        padding:20px 0 8px 0
+    }
+
+    .termsSec h1 {
+        font-size: 23px;
+        margin-bottom: 11px
+    }
+
+    .termsSec h2 {
+        font-size: 16px;
+        margin-bottom: 4px
+    }
+
+    .termsSec ol {
+        margin-left: -15px;
+        font-size: 13px
+    }
+
+    .termsSec p {
+        font-size: 13px
+    }
+
+    .strtHeight .card {
+        height: 130px
+    }
+
+    .strtHeight h6 {
+        font-size: 13px
+    }
+
+    .owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next {
+        margin: -15px
+    }
+
+    .privacySec {
+        padding: 20px 0 8px 0
+    }
+
+    .privacySec h1 {
+        font-size: 23px;
+        margin-bottom: 11px
+    }
+
+    .privacySec h2 {
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+
+    .privacySec ol {
+        margin-left: -15px;
+        font-size: 13px;
+    }
+
+    .privacySec p {
+        font-size: 13px;
+    }
+
+    .topLateTrend img {
+        height: 60px;
+    }
+
+    .indHeight .card {
+        height: 400px;
+    }
+
+    .mrktHgt .card {
+        overflow-y: auto;
+        height: 350px;
+    }
+
+    .prdlauHgt .card {
+        overflow-y: auto;
+        height: 180px;
+    }
+
+    .topBanner .carousel-caption {
+        top: 250px;
+    }
+
+    .finanHed {
+        margin-top: 30px !important;
+    }
+
+    .stickyR {
+        position: fixed;
+        top: 50px;
+        width: 140px;
+        z-index: 0;
+        margin-left: -5px
+    }
+
+    .stickySearch {
+        position: fixed;
+        top: 0px;
+        width: 140px;
+        z-index: 0;
+        margin-left: -5px
+    }
+
+    .firstCard .card {
+        height: 330px
+    }
+
+    .mrktCard .card {
+        height: auto
+    }
+
+    .topBanner > .card {
+        height: 400px
+    }
+
+    .topLateTrend > .card {
+        height: 400px
+    }
+
+    .indHeight .card .card-img-top {
+        height: 200px
+    }
+
+    .firstCard .card-img-top {
+        height: 110px;
+    }
+
+    .bnrText {
+        letter-spacing: 1px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    .indFullBnr {
+        height: 30vh;
+    }
+
+    .bnrText {
+        letter-spacing: 0px;
+        line-height: 36px;
+        font-size: 26px;
+    }
+
+    .menubarTop ul li {
+        padding: 0 0px;
+    }
+
+    .menubarTop ul li a+ul li a, .menubarTop ul li a+ul li a:hover, .menubarTop ul li a+ul li a:active, .menubarTop ul li a+ul li a:focus {
+        font-size: 10px;
+    }
+
+    .companyFinUpd {
+        height: 250px;
+    }
+
+    .cardThreeD .stage {
+        padding: 0 15%;
+    }
+
+    header .nav-link {
+        font-size: 10px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+        margin: -10px;
+    }
+
+    .searchInput {
+        width: 150px;
+    }
+
+    header .navbar-brand img {
+        width: 240px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1400px) {
+    .bnrText {
+        letter-spacing: 1px;
+        line-height: 40px;
+        font-size: 30px;
+    }
+
+    header .nav-link {
+        font-size: 12px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1200px) {
+    body {
+        font-size:15px
+    }
+
+    .fs-16 {
+        font-size: 13px;
+    }
+
+    footer form button, footer form button:hover {
+        margin-left: -50px;
+    }
+
+    .owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next, .owl-carousel.videoSlider button.owl-dot {
+        height: 40px;
+        width: 40px;
+        line-height: 30px;
+        margin: 10px;
+        background: white
+    }
+}
+
+@media (max-width: 992px) {
+    .indHeight .card {
+        height: auto
+    }
+}
+
+@media (max-width: 1200px) {
+    header .row:nth-child(3) {
+        height: 43px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1400px) {
+    .strtHeight .card {
+        height: 160px
+    }
+
+    .owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next {
+        margin: -15px
+    }
+
+    .termsSec h1 {
+        font-size: 25px;
+        margin-bottom: 13px;
+    }
+
+    .termsSec h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .termsSec ol {
+        margin-left: -15px;
+        font-size: 14px;
+    }
+
+    .termsSec p {
+        font-size: 14px;
+    }
+
+    .privacySec {
+        padding: 25px 0 10px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 25px;
+        margin-bottom: 13px;
+    }
+
+    .privacySec h2 {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .privacySec ol {
+        margin-left: -15px;
+        font-size: 14px;
+    }
+
+    .privacySec p {
+        font-size: 14px;
+    }
+
+    .topLateTrend img {
+        height: 70px;
+    }
+
+    .prdlauHgt .card img {
+        height: 178px !important;
+    }
+
+    .stickySearch {
+        width: 170px;
+    }
+
+    .prdlauHgt .card {
+        height: 180px;
+    }
+
+    .topBanner .carousel-caption {
+        top: 300px !important;
+    }
+
+    .firstCard .card {
+        height: 330px;
+        overflow-x: hidden
+    }
+
+    .topBanner > .card {
+        height: 480px
+    }
+
+    .topLateTrend > .card {
+        height: 480px
+    }
+
+    .mrktCard .card {
+        height: 360px
+    }
+
+    footer form button, footer form button:hover {
+        margin-left: -80px
+    }
+
+    .cardThreeD .scene {
+        width: 210px;
+        margin: 0 30px
+    }
+
+    .firstCard .card-img-top {
+        height: 160px
+    }
+
+    header .navbar-brand img {
+        width: 240px;
+    }
+
+    .finanHed {
+        font-size: 20px;
+        margin-top: 70px !important;
+    }
+}
+
+@media (min-width: 1200px) and (max-width:1600px) {
+    .owl-carousel.videoSlider .owl-nav button.owl-prev, .owl-carousel.videoSlider .owl-nav button.owl-next, .owl-carousel.videoSlider button.owl-dot {
+        height: 40px;
+        width: 40px;
+        margin: -20px
+    }
+
+    .searchInput {
+        width: 300px;
+    }
+
+    .bnrText {
+        letter-spacing: 1px;
+        line-height: 55px;
+        font-size: 35px;
+    }
+
+    .owl-carousel .owl-nav button.owl-prev, .owl-carousel .owl-nav button.owl-next, .owl-carousel button.owl-dot {
+        margin: -20px;
+    }
+
+    body {
+        font-size: 16px;
+    }
+
+    .fs-16 {
+        font-size: 14px;
+    }
+
+    .menubarTop ul li {
+        padding: 0 5px;
+    }
+
+    header .row:nth-child(3) {
+        height: 47px;
+    }
+
+    .companyFinUpd {
+        height: 310px;
+    }
+}
+
+@media (min-width: 1401px) and (max-width:1600px) {
+    .topBanner .carousel-item img {
+        height:360px
+    }
+
+    .topBanner .carousel-item h5 {
+        font-size: 18px
+    }
+
+    .firstCard .card {
+        height: 340px
+    }
+
+    .topBanner > .card {
+        height: 450px
+    }
+
+    .topLateTrend > .card {
+        height: 450px
+    }
+
+    .companyFinUpd {
+        height: 360px
+    }
+
+    footer form button, footer form button:hover {
+        margin-left: -70px
+    }
+
+    .firstCard .card-img-top {
+        height: 160px;
+    }
+
+    .indFullBnr {
+        height: 50vh;
+    }
+
+    .topBanner .carousel-caption {
+        top: 300px !important;
+        padding-top: 10% !important;
+    }
+
+    .termsSec {
+        padding: 30px 0 12px 0;
+    }
+
+    .termsSec h1 {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+
+    .termsSec h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .termsSec ol {
+        margin-left: -10px;
+        font-size: 16px;
+    }
+
+    .termsSec p {
+        font-size: 16px;
+    }
+
+    .privacySec {
+        padding: 30px 0 12px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 27px;
+        margin-bottom: 15px;
+    }
+
+    .privacySec h2 {
+        font-size: 20px;
+        margin-bottom: 7px;
+    }
+
+    .privacySec ol {
+        margin-left: -10px;
+        font-size: 16px;
+    }
+
+    .privacySec p {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 1601px) and (max-width:1800px) {
+    #hd1 {
+        font-size: 25px !important;
+    }
+
+    .firstCard .card {
+        height: 310px;
+    }
+
+    .topBanner > .card {
+        height: 520px;
+    }
+
+    .topLateTrend > .card {
+        height: 520px;
+    }
+
+    .menubarTop ul li {
+        padding: 0 10px;
+    }
+
+    .firstCard .card-img-top {
+        height: 150px;
+    }
+
+    .bnrText {
+        font-size: 40px;
+    }
+
+    .termsSec {
+        padding: 35px 0 15px 0;
+    }
+
+    .termsSec h1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    .termsSec h2 {
+        font-size: 21px;
+        margin-bottom: 8px;
+    }
+
+    .termsSec ol {
+        margin-left: -10px;
+        font-size: 17px;
+    }
+
+    .termsSec p {
+        font-size: 17px;
+    }
+
+    .privacySec {
+        padding: 35px 0 15px 0;
+    }
+
+    .privacySec h1 {
+        font-size: 30px;
+        margin-bottom: 18px;
+    }
+
+    .privacySec h2 {
+        font-size: 21px;
+        margin-bottom: 8px;
+    }
+
+    .privacySec ol {
+        margin-left: -10px;
+        font-size: 17px;
+    }
+
+    .privacySec p {
+        font-size: 17px;
+    }
+}
